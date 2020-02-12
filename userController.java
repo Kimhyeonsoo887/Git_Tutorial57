@@ -18,4 +18,10 @@ public Class UserController(){
 		logger.info("update: update")
 		return "user/update";
 	}
+
+	@RequestMapping("/user/delete.do")
+	public String delete(){
+		logger.info("delete: delete")
+		return "user/delete";
+	}
 }
