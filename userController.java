@@ -7,4 +7,9 @@ public Class UserController(){
 
 		return "user/login";
 	}
+	@RequestMapping("/user/insert.do")
+	public String insert(){
+		logger.info("login: insert")
+		return "user/insert";
+	}
 }
