@@ -24,4 +24,12 @@ public Class UserController(){
 		logger.info("delete: delete")
 		return "user/delete";
 	}
+
+	//회원조회 페이지로 이동 - dev
+	@RequestMapping("/user/select.do")
+	public String select (){
+		logger.info("경로:" + select);
+		return "user/select";
+	}
+
 }
