@@ -25,12 +25,12 @@ public Class UserController(){
 		return "user/delete";
 	}
 
-	//회원조회 페이지로 이동 - master branch에서 작업
+
+	//회원조회 페이지로 이동 - dev
 	@RequestMapping("/user/select.do")
-	public String select(){
-		logger.info("경로: select")
+	public String select (){
+		logger.info("경로:" + select);
 		return "user/select";
 	}
-
 
 }
